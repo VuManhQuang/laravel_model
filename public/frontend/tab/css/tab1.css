@@ -1,0 +1,61 @@
+
+
+
+#nav {
+    margin: 24px auto;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-left: 1px solid #999;
+   position: relative;
+
+}
+
+ul#nav {
+  padding: 0;
+}
+
+#nav li {
+  list-style: none; 
+}
+#nav li a {
+    display: block;
+    padding: 10px 15px;
+    background: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #999;
+    text-decoration: none;
+    color: #000;
+}
+#nav li a:hover, #nav li a.active {
+    background: #5cb85c;
+    color: #fff;
+}
+
+
+
+#nav section {
+  display: none; /* I NEED TO FIX THIS */
+  float: left;
+    background: #fff;
+    overflow: hidden; 
+  padding: 3% 3% 3% 3%;
+  border: 1px solid #5cb85c;
+  width: 100%;
+}
+
+.no-js #nav section {
+  display: block; /* I NEED TO FIX THIS */
+}
+#nav li ul li a {
+    padding: 10px 25px;
+    border-bottom: 1px dotted #ccc;
+}
+
+@media only screen and (min-width: 30em) { 
+    #nav {width: 100%; position: relative; border: none;     height: auto;
+}
+    #nav li { display: inline; }
+    #nav li a {display: inline-block; }  
+    #nav section { padding: 1%; position: relative; top: 40; left: 0;  width: 100%; }
+    
+}

@@ -1,0 +1,51 @@
+
+
+
+.social-sharing {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+
+a.social-sharing:link {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all .25s;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+}
+
+a.social-sharing:hover {
+  color: #9fc163;
+  cursor: pointer;
+    font-size: 25px;
+
+}
+
+#footer {
+    color: #fff;
+  background-color: #4267b2;
+  padding: 15px;
+  margin-top: 50px;
+}
+@media only screen and (min-width: 1024px) {
+#footer {
+
+  margin-top: 0px;
+}
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+

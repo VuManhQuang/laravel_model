@@ -1,0 +1,47 @@
+.giohang
+{
+	font-size: .9em;
+}
+.giohang th {
+	padding:15px 0 15px 10px;
+}
+.giohang thead tr{
+	background-color: #5cb85c; color:#fff;font-weight: bold;
+}
+.giohang .tong{
+		border: 1px solid #999;
+
+}
+
+.giohang .tong td{
+	        background: #4267b2;
+	        color:#fff;
+          			padding:15px 0 15px 10px;
+                font-size: 15px;
+                font-weight: bold;
+
+}
+.giohang .sanpham td{
+
+    padding:15px 0 15px 10px;
+       vertical-align: top;
+
+}
+.btn-mau{
+  border: 1px solid #5cb85c;
+  background: #fff;
+  color:black;
+}
+.btn-mau: hover{
+  border: 1px solid #5cb85c;
+  background: #5cb85c;
+  color:#fff;
+}
+@media only screen and (min-width: 1024px) {
+ .giohang .luixuong{
+    margin-bottom: : 0px;
+  }
+}
+  .giohang .luixuong{
+    margin-bottom: 10px;
+  }

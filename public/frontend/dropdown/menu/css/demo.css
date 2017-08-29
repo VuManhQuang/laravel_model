@@ -1,0 +1,177 @@
+.navbar {
+  border: 0;
+}
+
+
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+/* 
+ làm rộng menu nav
+.navbar-nav {
+  margin: 6px -15px;
+}
+*/
+
+@media (max-width: 767px) {
+
+  .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+  .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+
+  }
+}
+@media (min-width: 768px) {
+
+
+  .navbar-nav > li + li {
+    margin-left: 12px;
+  }
+/* tạo mũi nhọn menu */
+  .navbar-nav > li:before,
+  .navbar-nav > li:after {
+    content: " ";
+    display: block;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+
+  }
+  .navbar-nav > .open:before,
+  .navbar-nav > .open:after {
+    bottom: -4px;
+    left: 50%;
+    opacity: 1;
+    position: absolute;
+    z-index: 1002;
+  }
+    .navbar-nav > .open:after {
+    border: 9px solid;
+    border-top-width: 0;
+    border-color: #fafafa transparent;
+    margin-left: -8px;
+    margin-top: 12px;
+  }
+  /*end tạo mũi nhọn menu */
+
+
+}
+
+.navbar-material-blue {
+  background-color: #4267b2;
+  border-color: #0392d3;
+}
+.navbar-material-blue .navbar-brand {
+  color: #ffffff;
+}
+.navbar-material-blue .navbar-brand:hover,
+.navbar-material-blue .navbar-brand:focus {
+  color: #ffffff;
+  background-color: #5cb85c;
+}
+.navbar-material-blue .navbar-text {
+  color: #ffffff;
+}
+.navbar-material-blue .navbar-nav > li > a {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.navbar-material-blue .navbar-nav > li > a:hover,
+.navbar-material-blue .navbar-nav > li > a:focus {
+
+  color: #ffffff;
+  background-color: #5cb85c;
+}
+.navbar-material-blue .navbar-nav > .active > a,
+.navbar-material-blue .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #5cb85c;
+}
+.navbar-material-blue .navbar-nav > .active > a:hover{
+    color: #ffffff;
+  background-color: #5cb85c;
+}
+.navbar-material-blue .navbar-nav > .disabled > a,
+.navbar-material-blue .navbar-nav > .disabled > a:hover,
+.navbar-material-blue .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-material-blue .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-material-blue .navbar-toggle:hover,
+.navbar-material-blue .navbar-toggle:focus {
+  background-color: #5cb85c;
+}
+.navbar-material-blue .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-material-blue .navbar-collapse,
+.navbar-material-blue .navbar-form {
+  border-color: #0392d3;
+}
+.navbar-material-blue .navbar-nav > .open > a,
+.navbar-material-blue .navbar-nav > .open > a:hover,
+.navbar-material-blue .navbar-nav > .open > a:focus {
+  background-color: #5cb85c;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-material-blue .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-material-blue .navbar-nav .open .dropdown-menu > li > a:hover{
+    background-color:  #5cb85c;
+        color: #ffffff;
+
+  }
+
+
+  .navbar-material-blue .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-material-blue .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-material-blue .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-material-blue .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #5cb85c;
+  }
+  .navbar-material-blue .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-material-blue .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-material-blue .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-material-blue .navbar-link {
+  color: #ffffff;
+}
+.navbar-material-blue .navbar-link:hover {
+  color: #ffffff;
+}
+.navbar-material-blue .btn-link {
+  color: #ffffff;
+}
+.navbar-material-blue .btn-link:hover,
+.navbar-material-blue .btn-link:focus {
+  color: #ffffff;
+}
+.navbar-material-blue .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-material-blue .btn-link:hover,
+.navbar-material-blue .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-material-blue .btn-link:focus {
+  color: #cccccc;
+}

@@ -1,0 +1,47 @@
+
+/* nokia Lumia, iphone 5 ... */
+
+@media only screen and (max-width: 320px)
+{
+#amazingslider, .amazingslider-space-0 {
+    width: 100% !important;
+}
+}
+/* black berry , galaxy, Nexus, iphone 6, 6plus...  */
+@media screen and (max-width: 479px) and (min-width: 320px)
+{
+#amazingslider, .amazingslider-space-0 {
+    width: 100% !important;
+    height: 157px!important;
+}
+}
+/* play book,... */
+
+@media screen and (max-width: 767px) and (min-width: 480px)
+{
+#amazingslider, .amazingslider-space-0 {
+    width: 100% !important;
+    height: 260px!important;
+}
+}
+/* ipad,... */
+
+@media screen and (max-width: 1023px) and (min-width: 768px)
+{
+
+#amazingslider, .amazingslider-space-0 {
+     width: 100%!important;
+        height: 320px!important;
+
+}
+}
+/* lap top, ipad pro... */
+@media screen and (max-width: 1200px) and (min-width: 1024px)
+{
+    #amazingslider, .amazingslider-space-0 {
+     width: 700px!important;
+    height: 367px!important;
+}
+}
+
+ 

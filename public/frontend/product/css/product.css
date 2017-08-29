@@ -1,0 +1,599 @@
+/* tạo các next prev lúc hover slide */
+#productresponsive .owl-next, 
+#productresponsive .owl-prev {
+  position: absolute;
+  top: 40%;
+ background-image: none;
+    background-repeat: no-repeat;
+    opacity: 1;
+    text-shadow: none;
+    transition: all 0.8s ease 0s;
+  
+
+}
+.owl-carousel .owl-item .raty img
+{
+    display: inline-block;
+}
+#productresponsive:hover .owl-prev {
+    left: 0px;
+    transition: all .2s ease 0;
+        opacity: 0.8;
+
+}
+.giamgia{
+    text-decoration: line-through;
+    color: red;
+}
+.giam{
+    margin:0 0 20px 0;
+}
+#productresponsive:hover .owl-next {
+    right: 0px;
+    transition: all .2s ease 0;
+        opacity: 0.8;
+
+}
+.owl-carousel .owl-stage-outer{
+       border: 1px solid #4267b2;
+
+}
+#productresponsive .owl-item {
+   border: 1px solid #4267b2;
+  height: 100%;
+}
+
+#productresponsive .owl-nav {
+
+margin-top: 0px;
+}
+
+/* tuong tu*/
+#quantamresponsive .owl-next, 
+#quantamresponsive .owl-prev {
+  position: absolute;
+  top: 40%;
+ background-image: none;
+    background-repeat: no-repeat;
+    opacity: 1;
+    text-shadow: none;
+    transition: all 0.8s ease 0s;
+  
+
+}
+
+#quantamresponsive:hover .owl-prev {
+    left: 0px;
+    transition: all .2s ease 0;
+        opacity: 0.8;
+
+}
+
+#quantamresponsive:hover .owl-next {
+    right: 0px;
+    transition: all .2s ease 0;
+        opacity: 0.8;
+
+}
+#quantamresponsive .owl-item {
+   border: 1px solid #4267b2;
+  height: 100%;
+}
+
+#quantamresponsive .owl-nav {
+
+margin-top: 0px;
+}
+/*end tạo các next prev lúc hover slide */
+/* font chữ */
+.gia{
+   font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold; 
+    color: #0392d3;
+    font-size: 12px;
+    bottom: 0;
+        padding: 0 0 10px 0;
+
+}
+
+.danhgia {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+        font-size: 12px;
+    bottom: 0;
+        padding: 0;
+
+
+}
+
+.tensanpham{
+    height: 50px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+        padding: 15px 0px 15px 0px;
+
+}
+.hoverten{
+  color: #5cb85c;
+
+}
+.hoverten: hover{
+    color:#0392d3 ;
+
+}
+
+/* end font chữ */
+
+
+
+.anhspresponsive{
+    padding: 15px;
+    height:200px;
+}
+/* nhãn sản phẩm chính */
+h2.product-title {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #fff;
+    padding: 8px 31px;
+    position: relative;
+    background:#4267b2;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.viewport{
+    float: left;
+   width: 100%;
+   height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+       border: 1px solid #4267b2;
+
+}
+h2{
+        -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+h2.product-title:after {
+    content: "";
+    height: 1px;
+    width: 1px;
+    border-style: solid;
+    border-width: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-color: #4267b2 #4267b2 transparent transparent;
+}
+/*end nhãn sản phẩm chính */
+
+@media only screen and (min-width: 1024px) {
+
+.tensanpham{
+    height: 50px;
+    
+        padding: 15px 0px 15px 0px;
+
+}
+.gia{
+        padding: 15px 0px 20px 0px;
+
+}
+
+.danhgia {
+
+        padding: 15px 0px 0px 0px;
+
+
+}
+
+
+.anhspresponsive{
+    height:200px;
+}
+
+}
+
+
+
+/*liên hệ*/
+.luixuong{
+    bottom: 120px;
+}
+.block-news h4 span {
+    border-bottom: 3px #4f8c0d solid;
+    padding: 12px 0px;
+    padding-left: 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.block-news {
+    width: 97%;
+    float: left;
+    margin-right: 24px;
+}
+
+
+.block-left1 h4 {
+    padding: 10px;
+    border-bottom: 3px #D8D8D8 solid;
+    padding-left: 0px;
+}
+
+
+.block-left1>ul {
+    margin: 10px 0;
+}
+.block-left1>ul >li {
+    height: 83px;
+    margin-bottom: 20px;
+}
+.mauchu{
+    color: #777;
+}
+.nguoidaidien{
+        font-weight: 700;
+}
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+/* end liên hệ*/
+
+/* nút ấn lên trên đầu trang */
+
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #111433;
+    font-size: 20px;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+    background-color: #5cb85c;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+}
+
+/* end nút ấn lên trên đầu trang */
+
+/* tạo các next prev lúc hover slide */
+.owl-next, 
+.owl-prev {
+  position: absolute;
+  top: 40%;
+ background-image: none;
+    background-repeat: no-repeat;
+    opacity: 0;
+    text-shadow: none;
+    transition: all 0.8s ease 0s;
+  
+
+}
+.owl-prev .glyphicon-chevron-left{
+        font-size: 200%;
+
+}
+.owl-next .glyphicon-chevron-right{
+        font-size: 200%;
+
+}
+.owl-next {
+  right: 0;
+}
+.owl-prev {
+  left: 0;
+}
+
+
+.owl-carousel:hover .owl-prev {
+    left: 28px;
+    transition: all .2s ease 0;
+        opacity: 0.8;
+
+}
+.owl-carousel:hover .owl-next {
+    right: 28px;
+    transition: all .2s ease 0;
+        opacity: 0.8;
+
+}
+
+div.owl-prev:hover,div.owl-next:hover{
+  background-color: #5cb85c !important;
+  color: #fff !important;
+}
+
+
+/*end tạo các next prev lúc hover slide */
+/*responsive slide ảnh */
+.luitrai{
+    left: 0px;
+}
+.luitrai1{
+    left: 0px;
+}
+.luitrai2{
+    left: 15px;
+}
+
+.anhresponsive{
+  width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+
+.luitrai{
+    left: -20px;
+}
+.luitrai1{
+    left: -12px;
+}
+
+
+}
+/* ipad,... */
+
+@media screen and (max-width: 1023px) and (min-width: 768px)
+{
+
+
+
+}
+/* lap top, ipad pro... */
+@media screen and (max-width: 1200px) and (min-width: 1024px)
+{
+.luitrai1{
+    left: -12px;
+}
+
+}
+
+/*end responsive  slide ảnh */
+
+
+
+
+/*danh sách theo thể loại*/
+
+.myBreadcrumb {
+    display: none;
+  
+}
+.banner_anhresponsive{
+    height: 100px;
+
+}
+.hoversanpham:hover {
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+}
+ .hoversanpham {
+border: 3px solid #fff; 
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+.banner_anhresponsive{
+    width: 100%;
+    height: 180px;
+}
+.myBreadcrumb {
+    display: inline-block;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    border-radius: 5px;
+    width: 100%;
+    background: #5cb85c;
+
+}
+
+.myBreadcrumb > * {
+ text-transform: uppercase;
+        text-decoration: none;    outline: none;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 36px;
+    color: black;
+    /*need more margin on the left of links to accomodate the numbers*/
+    padding: 0 10px 0 30px;
+    background: white;
+    position: relative;
+    transition: all 0.5s;
+}
+
+
+.myBreadcrumb > * div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+
+}
+
+/*since the first link does not have a triangle before it we can reduce the left padding to make it look consistent with other links*/
+.myBreadcrumb > *:first-child {
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px; /*to match with the parent's radius*/
+}
+
+.myBreadcrumb >*:first-child i {
+    vertical-align: sub;
+}
+
+.myBreadcrumb > *:last-child {
+    border-radius: 0 5px 5px 0; /*this was to prevent glitches on hover*/
+    padding-right: 20px;
+    padding-right: 8px;
+}
+
+/*hover/active styles*/
+.myBreadcrumb a.active, .myBreadcrumb a:hover{
+    background: #5cb85c;
+    color:white;
+}
+.myBreadcrumb a.active:after, .myBreadcrumb a:hover:after {
+    background: #5cb85c;
+        color:white;
+
+}
+
+/*adding the arrows for the myBreadcrumbs using rotated pseudo elements*/
+.myBreadcrumb > *:after {
+
+    content: '';
+    position: absolute;
+    top: 0; 
+    right: -18px; /*half of square's length*/
+    /*same dimension as the line-height of .myBreadcrumb a */
+    width: 36px; 
+    height: 36px;
+    /*as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's: 
+    length = 1; diagonal = (1^2 + 1^2)^0.5 = 1.414 (pythagoras theorem)
+    if diagonal required = 1; length = 1/1.414 = 0.707*/
+    transform: scale(0.707) rotate(45deg);
+    -ms-transform:scale(0.707) rotate(45deg);
+    -webkit-transform:scale(0.707) rotate(45deg);
+    
+    /*we need to prevent the arrows from getting buried under the next link*/
+    z-index: 1;
+    /*background same as links but the gradient will be rotated to compensate with the transform applied*/
+    background: white;
+    /*stylish arrow design using box shadow*/
+    box-shadow: 
+        2px -2px 0 2px rgba(0, 0, 0, 0.1), 
+        1px -1px 0 2px rgba(255, 255, 0, 0.1);
+    /*
+        5px - for rounded arrows and 
+        50px - to prevent hover glitches on the border created using shadows*/
+    border-radius: 0 5px 0 50px;
+    transition: all 0.5s;
+}
+/*we dont need an arrow after the last link*/
+.myBreadcrumb > *:last-child:after {
+    content: none;
+}
+/*we will use the :before element to show numbers*/
+.myBreadcrumb > *:before {
+    /*some styles now*/
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin: 8px 0;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    background: white;
+    background: linear-gradient(#444, #222);
+    font-weight: bold;
+    box-shadow: 0 0 0 1px #ccc;
+}
+
+.myBreadcrumb > *:nth-child(n+2) {
+  display:none;
+}
+
+
+
+
+    .myBreadcrumb > *:nth-last-child(-n+6) {
+     
+        display:block;
+    } 
+    .myBreadcrumb > * div {
+        max-width: 175px;
+    }
+
+}
+/*end danh sách theo thể loại*/
+/* chi tiết sản phẩm*/
+.chitietsanpham{
+    border-bottom: 2px solid #4267b2; 
+    color:#5cb85c;
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cotthongtin .thongtinsanpham{
+    color:#4267b2;
+    font-weight: bold;
+}
+.cotthongtin{
+    padding-bottom:18px;
+
+}
+@media only screen and (min-width: 1024px) {
+    .cotthongtin{
+     border-bottom: 0.5px solid #5cb85c; 
+    padding-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+
+      }
+}
+/* end chi tiết sản phẩm */
